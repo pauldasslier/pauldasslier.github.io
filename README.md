@@ -5,4 +5,4 @@
 Мои домашние задания
 
 
-[Урок 12](https://pauldasslier.github.io/lesson_12/ "Готовая домашка")
+[Урок 12](https://pauldasslier.github.io/lesson_12/ "Готовая домашка") - Работа с репозиторием на github
