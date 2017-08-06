@@ -1,0 +1,33 @@
+.form {
+	input {
+		margin-left: 30px;
+		height: 30px;
+		margin-bottom: 43px;
+		border: 1px solid #cfdede;
+	}
+	form {
+		width: 318px;
+	 height: 368px;
+	 background-color: #f5f5f5;
+		text-align: center;
+		border: 1px solid #cfdede;
+	}
+}
+
+.btn {
+	.font;
+	margin-left: 30px;
+	background-color: @background;
+	color: @color;
+	text-align: center;
+	margin-top: 10px;
+}
+span {
+	.font;
+	background-color: @background;
+	color: @color;
+}
+
+.input-header {
+	text-align: none;
+}
