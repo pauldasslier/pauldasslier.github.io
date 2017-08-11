@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+
+@font-face {
+	font-family: 'Bebas Neue Cyrillic';
+	src: url('../fonts/BebasNeueCyrillic.eot');
+	src: url('../fonts/BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeueCyrillic.woff2') format('woff2'),
+		url('../fonts/BebasNeueCyrillic.woff') format('woff'),
+		url('../fonts/BebasNeueCyrillic.ttf') format('truetype'),
+		url('../fonts/BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lato/Lato-Regular.eot');
+	src: url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/lato/Lato-Regular.woff') format('woff'),
+		url('../fonts/lato/Lato-Regular.ttf') format('truetype'),
+		url('../fonts/lato/Lato-Regular.svg#Lato-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}../fonts/lato/
+
+.text-box{
+	padding-top: 2rem;
+}
+.resault {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.fonts p:first-of-type {
+	font-family: 'Open Sans', sans-serif;
+}
+.fonts p:nth-of-type(2) {
+	font-family: 'Bebas Neue Cyrillic', sans-serif;
+}
+.fonts p:nth-of-type(3) {
+	font-family: 'Lato', sans-serif;
+}
+.fonts p:last-of-type {
+	font-family: 'Open Sans', sans-serif;
+ font-family: 'Lobster', cursive;
+}
