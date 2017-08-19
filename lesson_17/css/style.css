@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.modal-content {
+	width: 404px;
+}
+.modal-header {
+	background-color: #3c2f3b;
+	border-radius: 6px 6px 0 0;
+}
+.modal-header button {
+	padding-bottom: 26px;
+}
+.modal-title {
+	color: #ffffff;
+	font-weight: bold;
+}
+.modal-body p {
+	padding-top: 12px;
+	padding-bottom: 10px;
+	color: #535353;
+	font-size: 15px;
+}
+.modal-footer {
+	text-align: left;
+}
+.modal-footer button {
+	width: 62px;
+	color: #ffffff;
+}
+.btn-primary {
+	background-color: #7aad60;
+}
+.btn-default {
+	background-color: #d85f5f;
+}
+.close {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	color: #ffffff;
+	opacity: 1;
+	background: url(../img/cross-bg.png) 40% 45% no-repeat !important;
+}
