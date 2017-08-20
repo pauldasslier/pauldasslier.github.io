@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active">
+     <a class="in" href="#home" data-toggle="tab">Sign-In</a>
+    </li>
+    <li>
+     <a class="out" href="#profile" data-toggle="tab">Sign-Up</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <form class="sign-form" action="#">
+        <input class="login" type="text" placeholder="Username">
+        <input class="pass" type="text" placeholder="Password">
+        <p>Forgot your password?</p>
+        <div class="checkbox">
+        <label for="coockie">
+        <input class="checkbox" name="coockie" type="checkbox">
+        Remember me
+        </label>
+        <div class="sign">
+        </div>
+        </div>
+      </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+  </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
